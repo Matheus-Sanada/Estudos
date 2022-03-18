@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 100px;
+  border-radius: 20px;
+  border: 0 none;
+}
+button.btn-entrar {
+  background-color: #2ecaca;
+  color: #fff;
+}
+button.btn-seguir {
+  background-color: #ca5f2e;
+  color: #fff;
+}
+button.btn-curtir {
+  background-color: #652eca;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

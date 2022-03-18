@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: #fb5f5f;
+}
+
+/*# sourceMappingURL=style.css.map */

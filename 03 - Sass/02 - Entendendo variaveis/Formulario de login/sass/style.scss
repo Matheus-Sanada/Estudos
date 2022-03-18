@@ -1,0 +1,93 @@
+$form_color: #9c0b0e;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #040400;
+}
+
+.form_login {
+    width: 100%;
+    text-align: center;
+    margin-top: 170px;
+}
+
+.form_login h1 {
+    padding-bottom: 40px;
+    color: $form_color;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form input {
+    width: 30%;
+    height: 30px;
+    padding: 20px;
+    border: 0 none;
+    border-radius: 5px
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    color: $form_color;
+} 
+
+::-webkit-input-placeholder{
+
+
+
+    color: $form_color;
+    font-weight: bold;
+}
+.form label {
+    margin: 10px;
+}
+
+.buttom {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.buttom a {
+    text-decoration: none;
+    color: #000;
+}
+
+.buttom button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0 none;
+    color: $form_color;
+    background-color: #0000;
+    border: 1px solid $form_color;
+    cursor: pointer;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    color: $form_color;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

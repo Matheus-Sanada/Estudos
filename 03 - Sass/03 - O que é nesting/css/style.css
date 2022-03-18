@@ -1,0 +1,11 @@
+.nesting ul {
+  background-color: red;
+  border: none;
+}
+.nesting li {
+  background-color: blue;
+  padding: 20px;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */

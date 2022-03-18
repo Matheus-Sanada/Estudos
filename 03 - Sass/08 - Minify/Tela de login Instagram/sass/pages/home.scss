@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $colorFundo;
+}
+
+.container_insta {
+    width: 45%;
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid #010101;
+    box-shadow: 3px 3px 5px;
+    border-radius: 25px 0px;
+}
+
+.container_logo {
+    margin-top: 30px ;
+    display: flex;
+    justify-content: center;
+}
+
+.container_logo img {
+    width: 300px;
+}
+
+.container_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.container_form input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid #010101;
+    background-color: #d2e2f8;
+}
+
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: #000;
+    
+} 
+
+.container_button {
+    margin-top: 5px;
+}
+
+.container_button button {
+    width: 250px;
+    height: 30px;
+    border: 0 none;
+    background-color: $colorLinks;
+}
+
+.container_button a {
+    text-decoration: none;
+    color: #000;
+}
+.container_text {
+    margin-top: 25px;
+}
+.container_text p {
+    text-align: center;
+}
+
+.container_text_link {
+    margin-top: 20px;
+}
+
+.container_text_link a {
+    text-decoration: none;
+    color: $colorLink02;
+}
+
+.container_text_link_password {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container_text_link_password a {
+    
+    text-decoration: none;
+    color: $colorLink02;
+}
+
+
+.container_password_login {
+    width: 45%;
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid #010101;
+    box-shadow: 3px 3px 5px;
+    border-radius: 25px 0px;
+}
+
+.container_password_login p, a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.container_password_login a {
+    color: $colorLink02;
+}
+
+.container_apps p {
+    text-align: center;
+}
+
+.container_apps_design {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container_apps_design img {
+    width: 150px;
+    margin: 5px;
+}

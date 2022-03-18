@@ -1,0 +1,44 @@
+body {
+    background-color: #000;
+    text-align: center;
+}
+
+
+@function colorPrimary($background-color) {
+    @if (lightness ($background-color) > 50) {
+
+        @return black;
+
+    }
+
+    @else {
+        @return white;
+    }
+
+}
+
+@mixin background-color-mixin ($colorPrimary) {background-color: $color;
+    color: colorPrimary($color);
+    
+}
+
+#social_media {
+    @include background-color-mixin(black)
+}
+
+button {
+    padding: 20px 40px;
+    margin: 10px;
+    margin-top: 200px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: .3ms;
+    color: mix(red, blue, 90%);
+}
+
+button:hover {
+    background-color: #960707;
+    color: #fff;
+    transition: .3ms;
+}
