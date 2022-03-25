@@ -26,5 +26,5 @@ if (velocityInitial <= 0) {
     alert("Velocidade perigosa. Controle automático forçado.")
 }
 
-alert (`Piloto: ${namePilot} \nVelocidade ${velocityInitial}`)
+alert (`Piloto: ${namePilot} \nVelocidade ${velocityInitial}Km/s`)
 
