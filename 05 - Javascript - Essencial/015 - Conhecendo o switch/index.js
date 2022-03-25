@@ -1,18 +1,22 @@
-let velocity = 120
+let spaceship = "elemental"
 
-switch (velocity) {
-    case 80:
-    case 90:
-    case 100:
-        console.log("Velocidade aceitavel")
+switch (spaceship) {
+    case "golias":
+        console.log("Nave mais resistente")
+    case "elemental":
+        console.log("Nave bruta")
+    case "goliark":
+        console.log("Nave mais rapida")
+    case "elementares":
+        console.log("Nave cagada")    
         break
-    case 110:
-    case 120:
-    case 130:
-        console.log("Velocidade acima do permitido")
-        break
-    default:
-        console.log("Risco de morte")
+    case "goliarkeds":
+        console.log("Nave mais forte")
+    case "elementares":
+        console.log("Nave que voa") 
 
-    
+        default:
+            console.log("Nave raiz")
+       
 }
+
