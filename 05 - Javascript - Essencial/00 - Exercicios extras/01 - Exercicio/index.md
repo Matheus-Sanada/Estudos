@@ -11,3 +11,4 @@
 5. Elaborar um programa que leia dois valores numericos inteiros, some os e apresente o resultado, caso o valor somado seja maior que 10.
 
 6. Elaborar um programa que leia dois valores numericos inteiros e faça sua adição. Caso o resultado obtido seja maior que 10 ou igual, esse valor deve ser apresentado, somando se a ele 5. Caso o resultado nao seja maior que 10 ou igual, ele deve ser aoresentado subtraindo-se 7.
+   

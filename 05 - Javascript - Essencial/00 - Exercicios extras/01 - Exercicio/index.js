@@ -60,3 +60,4 @@
 // } else {
 //     alert(`O valor somado é:  ${resultSum}`)
 // }
+
