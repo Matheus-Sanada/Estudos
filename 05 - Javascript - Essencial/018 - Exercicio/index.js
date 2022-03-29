@@ -1,21 +1,17 @@
-alert("Seja bem-vindo(a)! Piloto(a)")
-
-let numDobraEspacial = 0
-let dobraEspacial = ""
 
 
-let nameNave = prompt("Informe o nome da sua nave espacial: ")
+// let nameCar = prompt("Digite o nome do seu carro: ")
+// let car = prompt("Deseja vender seu carro:\n1 - SIM\n2 - NÃO")
+// let carMoney = Math.round(25.500) 
+// let carRepetions = 0
 
-dobraEspacial = prompt("Deseja entrar na dobra espacial?\n1 - Sim\n2 - Não")
+// while (car == "1") {
 
-
-
-
-while (dobraEspacial == "1") {
-
-    numDobraEspacial += 1
-    dobraEspacial = prompt("Deseja entrar na dobra espacial?\n1 - Sim\n2 - Não")
+//     carRepetions += 1
+//     car = prompt("Deseja vender seu carro:\n1 - SIM\n2 - NÃO")
     
-}
+    
+// }
 
-alert(`Dobra finalizada.\n A nave ${nameNave}, fez ${numDobraEspacial} dobras`)
+// confirm(`Tem certeza que quer vender ${nameCar} pelo preço de R$ ${carMoney} Mil`)
+// alert(`Carro vendido! ${carRepetions} vezes `)
