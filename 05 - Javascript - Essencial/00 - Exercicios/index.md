@@ -44,6 +44,9 @@ Para realizar este exercício, crie uma variável n que receberá o valor zero. 
 Exercício 2:
 Crie um vetor chamado carros. Este vetor irá conter os valores “Gol”, “Uno”, “S10”, “Kadett”. Você também precisa criar uma variável que será o índice para percorrer este laço de repetição. No seu laço de repetição while, utilize o console.log para mostrar todos os nomes dos carros que estão contidos no seu vetor.
 
+Exercicio 3
+Elaborar um programa um programa que apresente o resultado da tabuada de um numero inteiro. A tabuada deve seguir um padrao, estando entre 1 e 10, e exibir o resultado.
+
 ## EXERCICIOS FOR
 
 Exercício 1:
