@@ -103,55 +103,148 @@
 
 //* Crie um programa que abra um serie de opções quando você add sua idade.
 
-alert("Seja bem vindo(a)")
+// alert("Seja bem vindo(a)")
 
-let navBar = prompt("O que você deseja fazer agora?\n\n1 - Saber o ano do meu nascimento\n2 - Saber a idade de outra pessoa")
+// let navBar = prompt("O que você deseja fazer agora?\n\n1 - Saber o ano do meu nascimento\n2 - Saber a idade de outra pessoa")
 
-let year = 2022
+// let year = 2022
 
-let nameUser
-let result 
-let yearMoment
-let age 
+// let nameUser
+// let result 
+// let yearMoment
+// let age 
 
-while (year <= 2022) {
+// while (year <= 2022) {
 
-    year = year
+//     year = year
 
 
-        switch (navBar) {
+//         switch (navBar) {
 
-            case "1":
+//             case "1":
 
-            nameUser = prompt("Digite o seu nome: ")
-            age = prompt("Digite a sua idade: ")
-            result = year - age
+//             nameUser = prompt("Digite o seu nome: ")
+//             age = prompt("Digite a sua idade: ")
+//             result = year - age
 
-            alert(`Parabens ${nameUser}, você tem a idade de ${age} anos e o ano do seu nascimento é ${result}`)
+//             alert(`Parabens ${nameUser}, você tem a idade de ${age} anos e o ano do seu nascimento é ${result}`)
                 
-                break;
+//                 break;
 
-            case "2":
+//             case "2":
 
-            nameUser = prompt("Digite o nome da pessoa: ")
-            yearMoment = prompt("Digite a idade da pessoa que você quer descobrir: ")
-            result = year - yearMoment
+//             nameUser = prompt("Digite o nome da pessoa: ")
+//             yearMoment = prompt("Digite a idade da pessoa que você quer descobrir: ")
+//             result = year - yearMoment
 
-            alert(`Parabens ${nameUser}, você tem a idade de ${yearMoment} anos e o ano do seu nascimento é ${result}`)
+//             alert(`Parabens ${nameUser}, você tem a idade de ${yearMoment} anos e o ano do seu nascimento é ${result}`)
                 
-                break;
+//                 break;
         
-            default:
+//             default:
 
-            alert("Numero invalido")
+//             alert("Numero invalido")
 
-                break;
-        }
+//                 break;
+//         }
 
-    break;
+//     break;
 
-}
+// }
 
-alert("Encerrando programa :(")
+// alert("Encerrando programa :(")
+
+
+//* Crie um software para venda de uma casa.
+
+// alert("Seja bem-vindo(a)")
+// alert("Esse programa tem como proposito te auxiliar na venda da sua casa :)")
+
+// let nameUser = prompt("Digite o seu nome: ")
+
+// let valueHome
+// let nameNewBuy
+
+// let options = prompt("O que você deseja fazer: \n\n1 - Vender a casa\n2 - Alugar a casa")
+
+// for (valueHome = 0; valueHome >= 200.000; valueHome++) {
+
+//     switch (options) {
+//         case "1":
+
+//         valueHome = prompt("Digite o valor da sua casa: ")
+//         nameNewBuy = prompt("Digite o nome do comprador: ")
+
+//         alert(`${nameUser} sua casa foi vendida por R$ ${valueHome} Mil reais, para o comprador chamado ${nameNewBuy}`)
+            
+//             break;
+
+//         case "2":
+
+//         valueHome = prompt("Digite o valor que a casa sera alugada: ")
+//         nameNewBuy = prompt("Digite o nome da pessoa que ira alugar o imovel: ")
+
+//         alert(`${nameUser} sua casa foi alugado por R$ ${valueHome} reais, para a pessoa chamado ${nameNewBuy}`)
+            
+//             break;
+    
+//         default:
+
+//         alert("Digito invalido")
+
+//             break;
+//     }
+
+
+//     break;
+    
+    
+// }
+
+// alert("Encerrando programa")
+
+
+//* José nunca foi muito preocupado com suas finanças pessoais. Ele sempre deixou tudo muito desorganizado e para última hora. Frequentemente, sua eletricidade era cortada porque sempre esquecia de pagar a conta. Entretanto, tudo mudou com a pandemia. Devido ao medo de ficar sem dinheiro, José decidiu organizar seus gastos e economias pessoais.
+
+//* Sabendo que José gastou, em janeiro, R$230, em fevereiro, R$270, em março, R$270 e, em abril, R$350. Sendo assim, crie um programa que:
+
+//*Registre o gasto de cada mês
+
+//*Calcule o gasto total dos 4 meses
+
+//*Calcule o gasto médio
+
+//*Mostre na tela o gasto médio semestral e os gastos mensais
+
+// let buyJaneiro = prompt("Digite o valor que jose gastou em janeiro: R$ ")
+
+// let buyFevereiro = prompt("Digite o valor que jose gastou em fevereiro: R$ ")
+
+// let buyMar = prompt("Digite o valor que jose gastou em março: R$ ")
+
+// let buyAbril = prompt("Digite o valor que jose gastou gastou em abril: R$ ")
+
+// let result = Number(buyJaneiro) + Number(buyFevereiro) + Number(buyMar) + Number(buyAbril)
+
+// let resultFinal = Number(result) / 4
+
+// alert(`O gasto de total de jose é R$ ${result} Reais e o seu gasto medio é de R$ ${resultFinal} Reais`)
+
+
+
+//* Klaus era apaixonado por uma marca de chicletes específica: Bubbaloo. Para sempre ter caixas de Bubbaloo em casa, Klaus ia constantemente ao supermercado com o seu pai para comprá-las. Certo dia, ao ir ao supermercado com seu pai, Klaus se depara com algo que faz seus olhos brilharem: caixotes de Bubbaloo. Klaus chegou perto do caixote e leu as especificações de cada caixote, que era preenchido por caixinhas menores: altura = 5 caixinhas | largura = 6 caixinhas | chicletes por caixinha = 30. Apesar da paixão por tais chicletes, Klaus ficou receoso em comprar tais caixotes, pois ele nunca foi muito bom em matemática, e não sabia direito quantos chicletes haviam em cada caixote. Mas quando seu pai falou “Vamos embora logo filho!”, Klaus colocou 5 caixotes no carrinho de supermercado.
+
+​
+
+//* Portanto, para ajudar Klaus a saber quantos chicletes ele de fato comprou, faça um programa que:
+
+//* calcule a quantidade de caixinhas dentro de um caixote;
+
+//* Calcule a quantidade de chicletes por caixote;
+
+//* calcule e mostre na tela a quantidade total de chicletes comprados
+
+
+
 
 
