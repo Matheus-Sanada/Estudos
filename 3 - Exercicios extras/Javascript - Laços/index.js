@@ -234,7 +234,6 @@
 
 //* Klaus era apaixonado por uma marca de chicletes específica: Bubbaloo. Para sempre ter caixas de Bubbaloo em casa, Klaus ia constantemente ao supermercado com o seu pai para comprá-las. Certo dia, ao ir ao supermercado com seu pai, Klaus se depara com algo que faz seus olhos brilharem: caixotes de Bubbaloo. Klaus chegou perto do caixote e leu as especificações de cada caixote, que era preenchido por caixinhas menores: altura = 5 caixinhas | largura = 6 caixinhas | chicletes por caixinha = 30. Apesar da paixão por tais chicletes, Klaus ficou receoso em comprar tais caixotes, pois ele nunca foi muito bom em matemática, e não sabia direito quantos chicletes haviam em cada caixote. Mas quando seu pai falou “Vamos embora logo filho!”, Klaus colocou 5 caixotes no carrinho de supermercado.
 
-​
 
 //* Portanto, para ajudar Klaus a saber quantos chicletes ele de fato comprou, faça um programa que:
 
@@ -245,6 +244,101 @@
 //* calcule e mostre na tela a quantidade total de chicletes comprados
 
 
+// alert ("Seja bem vindo(a)")
+
+// let CalcQuantityAltur = prompt("Digite a quantidade que cada caixa tem de altura: ")
+// let calcQuantityVert = prompt("Digite a quantidade que cada caixa tem verticalmente: ")
+// let calcQuantityCiclets = prompt("Digite a quantidade de chicletes em cada caixinha: ")
+
+// let calcResult = CalcQuantityAltur * calcQuantityVert
+
+// let resultFinal = calcResult * calcQuantityCiclets
+
+// let finalResult = resultFinal * 5
 
 
+// alert(`O resultado da quantidade de caixinhas é de ${calcResult}, o resultado da quantidade de chicletes por caixote é de ${resultFinal} e a qauntida todal de chicletes comprados foi de ${finalResult}`)
 
+
+//* Tiago é um jogador camisa 10 nato. Ele sempre foi muito bom de bola: era capitão do seu time, artilheiro do campeonato e ficava a tarde inteira treinando no clube. Entretanto, com a chegada da pandemia, Tiago teve que limitar seus treinos e passou a treinar somente no jardim de sua casa. Para manter seu ritmo, cada dia ele adotava uma estrita rotina de treinos. Para maximizar seu potencial de melhora, Tiago resolveu fazer um cálculo para verificar a precisão de seus chutes. Após Tiago chutar várias vezes, ele calculou uma média dos seus chutes, em que, a cada 10 chutes, 4 acertavam o canto inferior esquerdo, e 2 acertavam cada um dos outros cantos. Logo, Tiago resolveu chutar 30 vezes no gol neste dia e, posteriormente, verificar a porcentagem de chutes em cada canto.
+
+//* Sendo assim, crie um programa que execute as seguintes funções:
+
+//* Calcular e mostrar na tela a quantidade de chutes efetuados no canto inferior esquerdo e nos outros cantos em geral
+
+//* Mostrar a porcentagem dos chutes que acertaram o canto inferior esquerdo e os outros cantos
+
+// confirm("ESTA PREPARADO SOLDADO!!!")
+
+// let chutes = prompt("Digite a quantidade de chutes: ")
+
+// let acertosInfEsquerdo = prompt("Digite a quantidade de acertos no canto inferior esquerdo: ")
+
+// let acertosOutros = prompt("Digite a quantidade de acertos nos outros cantos: ")
+
+
+// let resultAcerts = chutes * acertosInfEsquerdo * acertosOutros
+
+// let resultPorcent = resultAcerts / 30
+
+
+// alert(`A quantida de chutes efetuados foi de ${resultAcerts} e a porcentagem de chutes que acertaram foi de ${resultPorcent}`)
+
+//* Portanto, crie um programa que: 
+
+//* Mostre na tela os números de 10 até 1 em linhas separadas
+
+//* Ao final da contagem mostre a mensagem “Feliz Aniversário, Miguel!”
+
+//* Para isso, utilize ou o comando de loop for ou while 
+
+
+// alert("Seja bem vindo Miguel")
+// confirm("Preparado para a contagem regressiva?")
+
+// let regression = 10
+// let happy 
+
+// while (regression <= 10 && regression >= 0) {
+
+
+//     regression -=
+
+//     happy = confirm(regression)
+    
+// }
+
+// happy = alert(`Parabens Miguel`)
+
+
+//* João queria entender um pouco mais sobre o que estava acontecendo com a sua piscina. Nos últimos dias, João e seu pai tentaram encher a piscina para entreter as famílias nos dias quentes de verão. Porém, eles perceberam um vazamento na piscina, essa que tinha capacidade total de 500 litros. Para testar a gravidade do problema, João resolveu criar um programa que ajudasse ele e o seu pai a descobrir quantos litros de água são vazados por hora, e quantos litros de água sobram ao final do dia. Nesse caso, essas informações irão auxiliar João a saber se o nível de água da piscina é crítico ou não.
+
+ 
+
+//* Sendo assim, faça um programa que: 
+
+//* Crie uma variável que o nome é vazaoAgua, a qual vai registrar o valor determinado de vazão de água pelo usuário através de um comando prompt
+
+//* Calcule o total de água vazada em 24 horas 
+
+//* Calcule e mostre na tela a quantidade de água restante ao final do dia 
+
+//* Se a quantidade água restante for menor que 300 litros, mostre na tela a mensagem “ALERTA! Nível de água muito baixo”. Se a quantidade for maior ou igual a 300 litros, mostre “Nível de água OK!”
+
+
+// let  vazaoAgua = prompt("Digite a quantidade que esta vazando ate o momento de agua: ")
+
+// let resultVazao = Number(vazaoAgua) * 24
+
+// if (resultVazao < 300) {
+
+//     alert("ALERTA! Nível de água muito baixo: " + resultVazao + " Litros")
+    
+// } else if (resultVazao >= 300) {
+
+//     alert("Nível de água OK! " + resultVazao + " Litros")
+    
+// } else {
+
+//     alert("Digito invalido")
+// }
