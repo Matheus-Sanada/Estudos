@@ -170,3 +170,97 @@
 // }
 
 // argumentesSum()
+
+
+//* Crie um programa de bordo que receba o nome de uma nave.
+//* A velocidade da nave deve ser inicialmente 0 e um menu deve ser exibido para que o usuario escolha entre as seguintes opções: 1 - Acelerar a nave a 5km/s, 2 - Desacelerar a nave em 5km/s, 3 - Imprimir dados de bordo(Deve ser impresso o nome da nave com sua vaelocidade atual) e 4 - Sair do programa
+
+
+alert("Seja bem vindo(a) ao piloto de bordo")
+const nameNav = prompt("Digite o nome da sua nave: ")
+
+let velocity = 0
+let validation = 1
+
+
+
+function speedUp (velocity) {
+
+    velocity += 5
+    alert("Aumentando velocidade em 5Km/s")
+
+}
+
+
+function slowUp(velocity) {
+
+    velocity -= 5
+
+    if(velocity < 0){
+        alert("Velocidade nao pode ser menor que 0 km/s! Resetando para 0 km/s...")
+    } else {
+        alert("Diminuindo a velocidade em 5 km/s")
+    }
+}
+    
+
+function printBorder() {
+
+    alert(`O nome da sua nave é: ${nameNav}\nSua velocidade atual é de: ${velocity} Km/s`)
+    
+}
+
+function backNaveSpace() {
+
+    alert("Desligando motores da nave")
+    
+    
+}
+
+
+while(validation == 1){
+
+    menuNavegation()
+}
+
+
+
+function menuNavegation() {
+
+    let menuOptions = prompt("Escolha a opção desejada:\n\n1 - Acelerar a nave a 5km/s\n2 - Desacelerar a nave em 5km/s\n3 - Imprimir dados de bordo\n4 - Sair do programa")
+
+    switch (menuOptions) {
+
+        case "1":
+
+        speedUp(velocity += 5)
+            
+            break;
+        case "2":
+
+        slowUp(velocity -= 5)
+            
+            break;
+        case "3":
+
+        printBorder()
+            
+            break;
+
+        case "4":
+
+        backNaveSpace()
+            
+            break;
+    
+        default:
+
+        alert("ATENCAO!\n\nEh obrigatorio escolher uma opcâo!")
+
+            break;
+    }
+
+}
+
+
+
