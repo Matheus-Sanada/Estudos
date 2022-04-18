@@ -176,91 +176,230 @@
 //* A velocidade da nave deve ser inicialmente 0 e um menu deve ser exibido para que o usuario escolha entre as seguintes opções: 1 - Acelerar a nave a 5km/s, 2 - Desacelerar a nave em 5km/s, 3 - Imprimir dados de bordo(Deve ser impresso o nome da nave com sua vaelocidade atual) e 4 - Sair do programa
 
 
-alert("Seja bem vindo(a) ao piloto de bordo")
-const nameNav = prompt("Digite o nome da sua nave: ")
+// alert("Seja bem vindo(a) ao piloto de bordo")
+// const nameNav = prompt("Digite o nome da sua nave: ")
 
-let velocity = 0
-let validation = 1
-
-
-
-function speedUp (velocity) {
-
-    velocity += 5
-    alert("Aumentando velocidade em 5Km/s")
-
-}
+// let velocity = 0
+// let validation = 1
 
 
-function slowUp(velocity) {
 
-    velocity -= 5
+// function speedUp (velocity) {
 
-    if(velocity < 0){
-        alert("Velocidade nao pode ser menor que 0 km/s! Resetando para 0 km/s...")
-    } else {
-        alert("Diminuindo a velocidade em 5 km/s")
-    }
-}
+//     velocity += 5
+//     alert("Aumentando velocidade em 5Km/s")
+
+// }
+
+
+// function slowUp(velocity) {
+
+//     velocity -= 5
+
+//     if(velocity < 0){
+//         alert("Velocidade nao pode ser menor que 0 km/s! Resetando para 0 km/s...")
+//     } else {
+//         alert("Diminuindo a velocidade em 5 km/s")
+//     }
+// }
     
 
-function printBorder() {
+// function printBorder() {
 
-    alert(`O nome da sua nave é: ${nameNav}\nSua velocidade atual é de: ${velocity} Km/s`)
+//     alert(`O nome da sua nave é: ${nameNav}\nSua velocidade atual é de: ${velocity} Km/s`)
     
-}
+// }
 
-function backNaveSpace() {
+// function backNaveSpace() {
 
-    alert("Desligando motores da nave")
+//     alert("Desligando motores da nave")
     
     
-}
+// }
 
 
-while(validation == 1){
+// while(validation == 1){
 
-    menuNavegation()
-}
+//     menuNavegation()
+// }
 
 
 
-function menuNavegation() {
+// function menuNavegation() {
 
-    let menuOptions = prompt("Escolha a opção desejada:\n\n1 - Acelerar a nave a 5km/s\n2 - Desacelerar a nave em 5km/s\n3 - Imprimir dados de bordo\n4 - Sair do programa")
+//     let menuOptions = prompt("Escolha a opção desejada:\n\n1 - Acelerar a nave a 5km/s\n2 - Desacelerar a nave em 5km/s\n3 - Imprimir dados de bordo\n4 - Sair do programa")
 
-    switch (menuOptions) {
+//     switch (menuOptions) {
 
-        case "1":
+//         case "1":
 
-        speedUp(velocity += 5)
+//         speedUp(velocity += 5)
             
-            break;
-        case "2":
+//             break;
+//         case "2":
 
-        slowUp(velocity -= 5)
+//         slowUp(velocity -= 5)
             
-            break;
-        case "3":
+//             break;
+//         case "3":
 
-        printBorder()
+//         printBorder()
             
-            break;
+//             break;
 
-        case "4":
+//         case "4":
 
-        backNaveSpace()
+//         backNaveSpace()
             
-            break;
+//             break;
     
-        default:
+//         default:
 
-        alert("ATENCAO!\n\nEh obrigatorio escolher uma opcâo!")
+//         alert("ATENCAO!\n\nEh obrigatorio escolher uma opcâo!")
 
-            break;
-    }
+//             break;
+//     }
 
-}
+// }
 
+
+
+
+//* Crie um programa que calcule as entradas e saidas de dinheiro de um determinado funcionario.
+
+
+// alert("Seja bem vindo(a) ao contador de despesas")
+
+// let validation = 1
+// let money = 0
+// let nameUser = prompt("Digite o seu nome: ")
+
+
+// function moneySum(money) {
+
+//     money += 20
+
+//     alert("Adicionando mais 20 Reais na sua carteira :)")
+    
+// }
+
+
+// function moneySubtract(money) {
+
+//     money -= 20
+
+//     if(money < 0){
+//         alert("O seu valor nao pode ser menor que 0 Reais")
+//     } else {
+//         alert("Retirando 20 Reais da sua carteira :(")
+//     }
+
+    
+    
+// }
+
+// function menuResult() {
+
+//     alert(`${nameUser} você possui na sua carteira ${money} Reais`)
+    
+// }
+
+
+
+// function menuOptions() {
+
+//     let optionsMenu = prompt("Escolha uma opcâo\n\n1 - Adicionar dinheiro\n2 - Saida de dinheiro\n3 - Mostrar carteira")
+
+
+//     switch (optionsMenu) {
+
+//         case "1":
+
+//         moneySum(money+=20)
+            
+//             break;
+
+//         case "2":
+
+//         moneySubtract(money-=20)
+            
+//             break;
+
+//         case "3":
+
+//         menuResult()
+            
+//             break;
+    
+//         default:
+
+//             alert("Digito invalido")
+
+//             break;
+//     }
+    
+// }
+
+
+// while (validation == 1) {
+
+//     menuOptions()
+    
+// }
+
+//* Elaborar um programa que calcule e apresente o valor do volume de uma caixa retangular, utilizando a formula VOLUME <--- COMPRIMENTO * LARGURA * ALTURA.
+
+
+// alert("Seja bem vindo(a)")
+
+// let menuValidation = 1
+
+// function menuOptionsUser() {
+
+//     let menuOptions = prompt("Escolha uma opção:\n\n1 - Calcular a area de uma caixa retangular\n2 - Sair do programa")
+
+//     switch (menuOptions) {
+//         case "1":
+
+//         calcArea()
+            
+//             break;
+
+//         case "2":
+
+//         exit()
+            
+//             break;
+    
+//         default:
+
+//         alert("Digito invalido")
+//             break;
+//     }
+    
+// }
+
+// function calcArea() {
+
+//     let compriment = prompt("Digite o comprimento da caixa: ")
+//     let largura = prompt("Digite a largura da caixa: ")
+//     let altura = prompt("Digite a altura da caixa: ")
+
+//     let result = compriment * altura * largura
+//     let resulFinalText = alert(`O volume da sua caixa é de ${result} cm3`)
+    
+// }
+
+// function exit() {
+
+//     alert("Programa encerrado com sucesso :)")
+    
+// }
+
+// while (menuValidation == 1) {
+
+//     menuOptionsUser()
+    
+// }
 
 
