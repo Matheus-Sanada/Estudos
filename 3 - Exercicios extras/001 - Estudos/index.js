@@ -95,5 +95,25 @@
 // 5. Faça um algoritmo que leia o nome e as três notas de uma disciplina de um aluno e ao final escreva o nome do aluno, sua média e se ele foi aprovado, sabendo-se que a média para aprovação é igual ou superior a 8.
 
 
-// 6. Escreva um algoritmo que receba dois números reais e um código de seleção do usuário. Se o código digitado for 1, faça o algoritmo adicionar os dois números previamente digitados e mostrar o resultado; se o código de seleção for 2, os números deverão ser multiplicados; se o código de seleção for 3, o primeiro número deve ser dividido pelo
-// segundo
+function mediaAlun(aluno,n1,n2,n3) {
+
+    aluno = prompt("Digite o seu nome: ")
+    n1 = prompt("Digite a sua nota da avaliação 1:" )
+    n2 = prompt("Digite a sua nota da avaliação 2:" )
+    n3 = prompt("Digite a sua nota da avaliação 3:" )
+
+    let result = (Number(n1) + Number(n2) + Number(n3)) / 3
+
+    if (result >= 8) {
+
+        alert(aluno + " Aprovado com media final de " + result)
+        
+    } else {
+
+        alert(aluno + " Reprovado com media final de " + result)
+        
+    }
+    
+}
+
+mediaAlun()
